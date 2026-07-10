@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100vh;
+}
+/* NavBar */
+a{
+    text-decoration: none;
+}
+#top{
+    background-image: url("/home/dakshdhasmana/Personal_Website/Daksh-s-Personal-Website/src/nav.webp");
+    background-size: cover;
+    height: 120px;
+}
+#hm,#proj,#res{
+    color: #a855f7;
+    font-family: 'Montserrat', sans-serif; /* swap with the font you pick */
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Adds space between the letters */
+
+}
+#webName{
+    color: white;
+    font-size: 20px;
+    font-family: "Orbitron",sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#navitems{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+/* Bottom */
